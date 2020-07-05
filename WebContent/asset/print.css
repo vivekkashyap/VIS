@@ -1,0 +1,12 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .header, .hide{visibility: hidden;}
+  #section-to-print * {
+    visibility: visible;
+    color: white;
+    font-size: 18px;
+  }
+
+}
